@@ -27,7 +27,7 @@ MODEL_NAME=FacebookAI/roberta-large-mnli
 - **`src/services/classifier.py`**: Implements the `ClassifierService` class as a singleton, utilizing Hugging Face's `pipeline` for zero-shot classification.
 - **`src/dto/classifier.py`**: (Assumed) Contains data transfer objects (DTOs) for request and response models.
 - **`src/enums/classifier_types.py`**: Defines the `EmailType` enum for classification labels (e.g., Safe, Spam).
-- **`dataset/custom-dataset.csv`**: Contains sample email data for potential training or testing purposes.
+- **`dataset/dataset.csv`**: Contains sample email data for potential training or testing purposes.
 
 ## Usage
 
@@ -73,15 +73,16 @@ Response:
 1. **Clone the Repository**: If not already done, clone the repository to your local machine.
 2. **Set Up a Virtual Environment** (optional but recommended):
    ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   pip install uv
+   uv sync
+   source .venv/bin/activate.fish
    ```
 3. **Install Dependencies**: As shown in the Usage section.
 4. **Make Changes**: Modify the code in the `src` directory as needed. Key files to focus on:
    - `src/services/classifier.py` for model logic.
    - `src/routers/classifier.py` for API endpoint definitions.
 5. **Test Locally**: Run the server as described in Usage and test endpoints with tools like `curl` or Postman.
-6. **Dataset**: Use `dataset/custom-dataset.csv` for testing or expanding the dataset for potential fine-tuning (not currently implemented).
+6. **Dataset**: Use `dataset/dataset.csv` for testing or expanding the dataset for potential fine-tuning (not currently implemented).
 
 ### Running the Development Server
 
@@ -93,5 +94,5 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
 ### Additional Notes
 
-- The current implementation uses zero-shot classification, which does not require training but may benefit from fine-tuning on `dataset/custom-dataset.csv` for better accuracy.
+- The current implementation uses zero-shot classification, which does not require training but may benefit from fine-tuning on `dataset/dataset.csv` for better accuracy.
 - Ensure you have sufficient memory as the `FacebookAI/roberta-large-mnli` model is resource-intensive.
