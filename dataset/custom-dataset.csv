@@ -1,0 +1,87 @@
+,content,target
+1,"Deploy your project in one click
+
+Vercel makes setting up your first deployment easy with our integrated Git workflow.
+
+Click the “New Project” button on the top right of your dashboard to connect a Git repository to get started.
+
+Start new project
+X
+  
+GitHub
+ 
+Talk to a Vercel expert →
+Docs | Blog | Contact | Careers
+440 N Barranca Ave #4133 Covina, CA 91723
+Copyright © 2025 Vercel Inc. All rights reserved.
+View our Privacy Policy or unsubscribe.",Safe
+1,"Team - Sprint planning
+View on Google Calendar
+When	Wed Sep 24\, 2025 7pm – 9pm (GMT+3:30)
+Who	Ryan Sahaf\, Mohammad Daneshjoo\, Omid Poorpanah\, Elman Lucas\, Saman Rajabi...
+Agenda
+Wed Sep 24\, 2025
+No earlier events
+7pm	Promom - Sprint planning
+No later events
+ 
+This event has been updated
+Changed: time
+ 
+Join with Google Meet
+Meeting link
+meet.google.com/csx-bkdz-tsn
+Join by phone
+(US) +1 575-587-5938
+PIN: 819503570
+
+More phone numbers
+Attachments
+	
+Notes - Promom - Sprin...
+When
+CHANGED
+Wednesday Sep 24\, 2025 ⋅ 7pm – 9pm (Iran Standard Time)
+Thursday Sep 25\, 2025 ⋅ 7:30pm – 9:30pm (Iran Standard Time)
+Guests
+Saeed Eskafi
+Marjan Malekpour
+Ali Erfanian - optional
+View all guest info
+Yes
+No
+Maybe
+More options
+Invitation from Google Calendar
+
+You are receiving this email because you are subscribed to calendar notifications. To stop receiving these emails\, go to Calendar settings\, select this calendar\, and change \"Other notifications\".
+
+Forwarding this invitation could allow any recipient to send a response to the organizer\, be added to the guest list\, invite others regardless of their own invitation status\, or modify your RSVP. Learn more",Safe
+3,"Sentry
+View on Sentry
+
+Errors are half the story. Start tracking latency across your application.
+Set up Performance
+New issue
+We notified recently active members in the ezpz-be project of this issue
+Issue
+User not found with Customer ID: cus_... /api/v1/stripe/webhook/invoice
+User not found with Customer ID: cus_...
+ID: a104770b16ac4c67a8bacb6279ac2067
+Sept. 19\, 2025\, 12:41:46 a.m. +0330
+Project	ezpz-be
+environment	production
+Level	error
+Request
+URL	http://ezpz-be-dev.webcentriq.services/api/v1/stripe/webhook/invoice
+Method	POST
+User
+IP Address:	54.187.216.72
+Message
+User not found with Customer ID: cus_T4z5S1K7Xw6fry
+Tags
+environment = production level = error logger = EzPzLogger runtime = CPython 3.12.11 runtime.name = CPython user = ip:54.187.216.72 server_name = ezpzbe transaction = /api/v1/stripe/webhook/invoice url = http://ezpz-be-dev.webcentriq.services/api/v1/s...
+Mute this alertThis email was triggered by Send a notification for high priority issues
+
+HomeNotification Settings
+",Safe
