@@ -49,6 +49,7 @@ Response:
   "label": "SUPPORT"
 }
 ```
+![](./docs/swagger.png)
 
 ### Running the Application
 
